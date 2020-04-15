@@ -1,0 +1,1 @@
+sed -i '' -e "s/$2/BLABLA/g; s/$3/$2/g; s/BLABLA/$3/g" $1

@@ -1,0 +1,51 @@
+.vimrc
+--------------
+syntax on
+set number
+set autoindent
+set mouse=a
+set shiftwidth=3
+set tabstop=3
+set whichwrap+=<,>,[,]
+:map <C-c> y
+:map <C-v> P
+:map <C-x> d
+:map <C-z> u
+
+
+.gitignore
+----------------
+makefile
+.*
+test*
+*.dSYM*
+a.out
+*/.*
+*/test*
+*/*.dSYM*
+*/a.out
+
+
+makefile
+----------------
+alias:
+	alias g='gcc -Wall -Wextra -Werror -g'
+commit:
+	git add -A
+	git commit -m "essai"
+push:
+	git push origin master
+
+
+lldb
+------------------
+br s -n main
+br s -f foo.c -l 12
+br l / watch l
+br del 1 / watch del 1
+wa s e -- &var
+r  bt  s  n
+fr v
+fr s 12
+up down
+expr var

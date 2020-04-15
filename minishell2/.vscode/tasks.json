@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build with Clang",
+        "type": "shell",
+        "command": "make",
+        "args": [
+            "re"
+        //     "-g",
+        //   "main.c",
+        //   "-o",
+        //   "a.out",
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }

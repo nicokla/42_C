@@ -1,0 +1,10 @@
+*.o
+*.a
+*/*.a
+*/*.o
+test
+test.dSYM*
+cub3d
+*/*.dylib
+*.dylib
+*.png

@@ -1,0 +1,7 @@
+*/Makefile
+Makefile
+*/test*
+*/.*
+*/*.o
+*/*.a
+pdfs/*

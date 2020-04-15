@@ -1,0 +1,11 @@
+    {
+        "key": "shift+f8",
+        "command": "workbench.action.tasks.runTask",
+        "args": "build-debug"
+    },
+    {
+        "key": "shift+f10",
+        "command": "workbench.action.tasks.runTask",
+        "args": "run-debug"
+    }
+

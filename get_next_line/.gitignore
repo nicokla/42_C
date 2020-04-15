@@ -1,0 +1,7 @@
+*.o
+test
+test*
+test.dSYM*
+libft*
+unit*
+this_out*
